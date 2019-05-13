@@ -129,7 +129,33 @@
           <p itemprop="description">Заключение договоров на работы по поверке и калибровке средств измерений, аттестации
             испытательного оборудования. Приём средств измерений и испытательного оборудования, их выдача.</p>
           <p itemprop="address location" itemscope itemtype="http://schema.org/PostalAddress">
-            Адрес:
+            <style>
+              .warning {
+                font-weight: bold;
+                -webkit-animation: warning 1s linear infinite;
+                animation: warning 1s linear infinite;
+              }
+
+              @-webkit-keyframes warning {
+                100% {
+                  color: rgba(34, 34, 34, 0);
+                }
+              }
+
+              @keyframes warning {
+                100% {
+                  color: rgba(34, 34, 34, 0);
+                }
+              }
+            </style>
+            <span class="warning">
+              Обращаем Ваше внимание:
+            </span>
+            приём и выдача средств измерений с
+            <span class="warning">
+              01.05.2019
+            </span>
+            осуществляется по адресу:
             <span style="display:none">
               <span itemprop="addressCountry" style="display:none">RU</span>
               Россия,
@@ -138,31 +164,27 @@
               <span itemprop="addressLocality">Великий Новгород</span>,
             </span>
             <span itemprop="streetAddress">пр.&nbsp;Александра Корсунова, д.&nbsp;32</span>,
-            подъезд №2, этаж 1
+            подъезд №2, этаж 1.
           </p>
           <meta itemprop="telephone" content="+78162602137" />
           <meta itemprop="email" content="mailto:priem@csm.nov.ru" />
-          <div itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
-            <p><span itemprop="name">Сектор по работе с клиентами метрологического отдела</span>:</p>
-            <meta itemprop="contactType" content="customer service" />
-            <meta itemprop="contactType" content="sales" />
-            <meta itemprop="contactType" content="bill payment" />
-            <meta itemprop="availableLanguage" content="ru-RU" />
+          <div>
+            <p>Информацию о готовности можно получить по номеру заявления-квитанции на сайте (регистрация не требуется),
+              либо более подробно - в личном кабинете заказчика по указанному ниже
+              адресу (требуется предварительная регистрация):</p>
             <ul>
-              <li>
-                Телефон:
-                <a itemprop="telephone" content="+78162602137"
-                  href="tel:+78162602137">+7&nbsp;(8162)&nbsp;60&ndash;21&ndash;37</a>
+              <li itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+                <meta itemprop="name" content="Результаты поверки" />
+                <meta itemprop="contactType" content="customer support" />
+                <meta itemprop="availableLanguage" content="ru-RU" />
+                <a itemprop="url" href="http://rustest.spb.ru/do/metrology/results">Результаты поверки</a> (по номеру
+                заявления-квитанции)
               </li>
-              <li>
-                Факс:
-                <a itemprop="faxNumber" content="+78162607727"
-                  href="tel:+78162607727">+7&nbsp;(8162)&nbsp;60&ndash;77&ndash;27
-                  доб.&nbsp;9999</a>
-              </li>
-              <li>
-                E-mail:
-                <a itemprop="email" href="mailto:priem@csm.nov.ru">priem@csm.nov.ru</a>
+              <li itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+                <meta itemprop="name" content="Личный кабинет заказчика" />
+                <meta itemprop="contactType" content="customer support" />
+                <meta itemprop="availableLanguage" content="ru-RU" />
+                <a itemprop="url" href="http://lk.rustest.spb.ru">Личный кабинет заказчика</a>
               </li>
             </ul>
           </div>
@@ -199,23 +221,27 @@
               </li>
             </ul>
           </div>
-          <div>
-            <p>Информацию о готовности можно получить по номеру заявления-квитанции на сайте (регистрация не требуется),
-              либо более подробно - в личном кабинете заказчика по указанному ниже
-              адресу (требуется предварительная регистрация):</p>
+          <div itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+            <p><span itemprop="name">Сектор по работе с клиентами метрологического отдела</span>:</p>
+            <meta itemprop="contactType" content="customer service" />
+            <meta itemprop="contactType" content="sales" />
+            <meta itemprop="contactType" content="bill payment" />
+            <meta itemprop="availableLanguage" content="ru-RU" />
             <ul>
-              <li itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
-                <meta itemprop="name" content="Результаты поверки" />
-                <meta itemprop="contactType" content="customer support" />
-                <meta itemprop="availableLanguage" content="ru-RU" />
-                <a itemprop="url" href="http://rustest.spb.ru/do/metrology/results">Результаты поверки</a> (по номеру
-                заявления-квитанции)
+              <li>
+                Телефон:
+                <a itemprop="telephone" content="+78162602137"
+                  href="tel:+78162602137">+7&nbsp;(8162)&nbsp;60&ndash;21&ndash;37</a>
               </li>
-              <li itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
-                <meta itemprop="name" content="Личный кабинет заказчика" />
-                <meta itemprop="contactType" content="customer support" />
-                <meta itemprop="availableLanguage" content="ru-RU" />
-                <a itemprop="url" href="http://lk.rustest.spb.ru">Личный кабинет заказчика</a>
+              <li>
+                Факс:
+                <a itemprop="faxNumber" content="+78162607727"
+                  href="tel:+78162607727">+7&nbsp;(8162)&nbsp;60&ndash;77&ndash;27
+                  доб.&nbsp;9999</a>
+              </li>
+              <li>
+                E-mail:
+                <a itemprop="email" href="mailto:priem@csm.nov.ru">priem@csm.nov.ru</a>
               </li>
             </ul>
           </div>
