@@ -1,1 +1,1 @@
-"# rustest.spb.ru" 
+# Ресурсы для сайта rustest.spb.ru

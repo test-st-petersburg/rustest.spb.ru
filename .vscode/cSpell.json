@@ -1,0 +1,13 @@
+{
+    "version": "0.1",
+    "ignorePaths": [
+        ".git/*",
+        ".vscode/*"
+    ],
+    "language": "en,ru",
+    "dictionaries": [
+        "html"
+    ],
+    "words": [],
+    "ignoreRegExpList": []
+}
